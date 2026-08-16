@@ -8,7 +8,7 @@
 ** Description: Reads a dictionary file and prints words from another file
 **              that are not found in the dictionary.
 **
-** Author:      [Brittany Burson, John-Paul Shaner]
+** Author:      [Brittany Burson]
 ** Date:        [08/15/2026]
 ** -------------------------------------------------------------------------*/
 
@@ -19,7 +19,7 @@
 #include <cctype>
 using namespace std;
 
-// Team Member: ______________________________
+// Team Member: Brittany Burson
 // Loads all words from the dictionary file into a vector.
 vector<string> loadDictionary(const string& fileName)
 {
@@ -46,7 +46,7 @@ vector<string> loadDictionary(const string& fileName)
     return words;
 }
 
-// Team Member: ______________________________
+// Team Member: Brittany Burson
 // Removes punctuation and converts a word to lowercase.
 string normalizeWord(const string& word)
 {
@@ -65,7 +65,7 @@ string normalizeWord(const string& word)
     return cleanedWord;
 }
 
-// Team Member: ______________________________
+// Team Member: Brittany Burson
 // Checks whether a word exists in the dictionary vector.
 bool wordExists(const string& word, const vector<string>& words)
 {
@@ -80,7 +80,7 @@ bool wordExists(const string& word, const vector<string>& words)
     return false;
 }
 
-// Team Member: ______________________________
+// Team Member:Brittany Burson
 // Reads the file to be checked and prints words not found in the dictionary.
 void checkFile(const string& fileName, const vector<string>& words)
 {
